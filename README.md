@@ -280,7 +280,14 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions! Please follow these guidelines:
+
+1. **Code Style**: Adhere to PEP 8 standards
+2. **Type Annotations**: Include type hints for all functions
+3. **Documentation**: Update docstrings and README for new features
+4. **Testing**: Add unit tests for new functionality
+5. **Error Handling**: Maintain comprehensive error handling
+
 
 ### Development Setup
 
@@ -333,6 +340,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by CSC**
+**Built with ❤️ by CS Chirinda**
 
 *For questions or support, please open an issue*
