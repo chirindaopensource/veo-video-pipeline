@@ -109,28 +109,6 @@ numpy>=1.24.0
 ```
 
 ## 📖 Usage
-
-### Basic Usage
-
-```python
-from veo_pipeline import create_veo_video_pipeline
-
-# Generate sequential video
-final_video_path = create_veo_video_pipeline(
-    reference_image_path="path/to/your/reference_image.jpg",
-    scene_prompts=[
-        "A serene lake at sunrise with mist rising from the water",
-        "A family of ducks swimming peacefully across the lake",
-        "The camera pans to reveal mountains in the background",
-        "Golden sunlight breaks through the clouds, illuminating the scene"
-    ],
-    output_folder_name="lake_sunrise_sequence",
-    project_id="your-gcp-project-id"  # Optional if set in environment
-)
-
-print(f"Video generated successfully: {final_video_path}")
-```
-
 ### Advanced Usage with Custom Pipeline
 
 ```python
